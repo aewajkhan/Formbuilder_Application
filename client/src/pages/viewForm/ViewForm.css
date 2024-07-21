@@ -1,0 +1,113 @@
+/* Container styling */
+.ViewFormWrapper {
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.ViewFormContainer {
+  margin-top: 10%;
+  border: 1px solid gray;
+  width: 800px;
+  /* background-color: gray; */
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/* Title styling */
+.ViewFormContainer>h1 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Flex container for form fields */
+form {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  gap: 15px;
+}
+
+/* Input container styling */
+input-container {
+  flex: 1 1 45%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+  margin-left: 10px;
+}
+
+/* Input field styling */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+/* Input field focus styling */
+input:focus {
+  /* border-color: #007bff; */
+  /* outline: none; */
+  /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-left: 45%;
+
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+.floatingInputContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 items per row */
+  gap: 20px;
+  /* Adjust the gap between items as needed */
+  justify-items: center;
+  /* Center items horizontally */
+  align-items: center;
+  /* Center items vertically */
+  width: 100%;
+  /* Ensure the container takes full width */
+}
+
+.floatingLabelInput {
+  width: 100%;
+  /* Ensure each input takes the full width of its grid cell */
+  max-width: 400px;
+  /* Optional: Set a max width for the inputs */
+}

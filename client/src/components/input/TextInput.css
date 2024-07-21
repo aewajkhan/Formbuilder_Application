@@ -1,0 +1,41 @@
+.input-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.input-field {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-field:focus {
+  border-bottom-color: blue;
+}
+
+.input-field:focus + .placeholder,
+.input-field:not(:placeholder-shown) + .placeholder {
+  left: -10px;
+  bottom: 0px;
+  font-size: 12px;
+  color: #666;
+}
+
+.placeholder {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  font-size: 16px;
+  color: #aaa;
+  pointer-events: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.placeholder.active {
+  top: -20px;
+  font-size: 12px;
+  color: #666;
+}

@@ -1,0 +1,80 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+}
+.homeContainer > h5 {
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+}
+.formContainer {
+  display: flex;
+  margin-top: 10px;
+}
+.rightContainer {
+  min-height: 300px;
+  width: 500px;
+  align-self: center;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.leftContainer {
+  min-height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+.leftContainer > h1 {
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+.leftContainer > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px !important;
+  color: gray;
+}
+.addInputContainer {
+  margin-top: 20px;
+  width: "100%";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textFormComponentWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+.textComponentContainer {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  /* border: 1px solid black; */
+  border-top: none;
+  
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: fit-content;
+}
+.underLine {
+  border-bottom-width: 10px;
+  border: 1px solid green;
+  border-bottom-color: green;
+  width: 150px;
+}
+
+/* button list  */
+.buttonsWrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+.headingContainer{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.headingContainer > h1 {
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+
+
+}

@@ -8,7 +8,7 @@ const HeadingEditText = ({ text, color, onClick }) => {
       <div onClick={onClick}>
         <MdModeEditOutline
           size={20}
-          style={{ marginBottom: "15px", color: color }}
+          style={{ marginBottom: "0px", color: color }}
         />
       </div>
     </div>

@@ -191,7 +191,7 @@ const EditForm = () => {
       </div>
       <Button
         bgcolor={"green"}
-        title={"Create Form"}
+        title={"Save Form"}
         color={"white"}
         top={"3%"}
         right={"15%"}

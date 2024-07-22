@@ -22,7 +22,7 @@
     width: 90%;
     padding: 20px;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    /* background-color: red; */
     min-height: 20vh;
 
   }
@@ -53,7 +53,7 @@
     color: #666;
     position: absolute;
     margin-bottom: 30px;
-    bottom: 550px;
+    bottom: 580px;
   }
   
   .form-create-page button {
